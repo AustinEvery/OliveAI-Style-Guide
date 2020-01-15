@@ -1,0 +1,356 @@
+
+/* Overall Styles */
+
+/* Sizing Chart */
+/* Small Phones Classes - Start with xs - extra small */
+/* Large Phones Classes - Start with s - small */
+/* Small Tablets Classes - Start with m - medium */
+/* Large Tablets Classes - Start with l - large */
+/* Desktop Classes - Start with xl - extra large */
+
+/* Display */
+.block {display: block;}
+.inline-block {display: inline-block;}
+.flex {display: flex;}
+.none {display:none;}
+
+/* Positioning */
+.absolute {position:absolute;}
+.relative {position:relative;}
+.fixed {position:fixed;}
+
+/* Colors */
+.white {color: #fff;}
+.black {color: #000;}
+.secondary {color: #64ffda;}
+.primary {color: #651fff;}
+.primary-dark {color: #410099;}
+.primary-light {color: #b388ff;}
+
+/* Background Colors */
+.bg-white {color: #fff;}
+.bg-black {color: #000;}
+.bg-secondary {color: #64ffda;}
+.bg-primary {color: #651fff;}
+.bg-primary-dark {color: #410099;}
+.bg-primary-light {color: #b388ff;}
+
+/* Font */
+.sofia-pro {font-family: sofia-pro;}
+
+/* Small Mobile Phones */
+@media screen and (max-width: 320px) {
+
+/* Display */
+.mobreak{ display:block;}
+.tabbreak{ display:none;}
+.dtbreak{ display:none;}
+
+/* Alignment */
+.xs-center{ text-align: center;}
+.xs-left{text-align: left;}
+.xs-right{text-align: right;}
+
+/* Flexbox */
+.xs-flex {display: flex;}
+
+  /* Flex Direction */
+  .xs-row {flex-direction: row;}
+  .xs-rev-row{flex-direction: row-reverse;}
+  .xs-column {flex-direction: column;}
+  .xs-rev-column {flex-direction: column-reverse;}
+  /* Flex Justify Content - Horizontal Alignment */
+  .xs-horizon-start{justify-content: flex-start;}
+  .xs-horizon-end{justify-content: flex-end;}
+  .xs-horizon-center{justify-content: center;}
+  .xs-horizon-between{justify-content: space-between;}
+  .xs-horizon-around{justify-content: space-around;}
+  /* Flex Align Items - Vertical Alignment */
+  .xs-vert-start{align-items: flex-start;}
+  .xs-vert-end{align-items: flex-end;}
+  .xs-vert-center{align-items: center;}
+  .xs-vert-base{align-items: baseline;}
+  .xs-vert-stretch{align-items: stretch;}
+
+/* Font Sizes */
+  h1, .xs.h1 {
+    font-size: 2.75em !important;
+    line-height: 1.15em !important;
+  }
+  h2, .xs.h2 {
+    font-size: 2.125em !important;
+    line-height: 1.20em !important;
+  }
+  h3, .xs.h3 {
+    font-size: 1.75em !important;
+    line-height: 1.25em !important;
+  }
+  h4, .xs.h4 {
+    font-size: 1.25em !important;
+    line-height: 1.3em !important;
+  }
+  h5, .xs.h5 {
+    font-size: 1.25em !important;
+    line-height: 1.35em !important;
+  }
+  h6, .xs.h6 {
+    font-size: 1em !important;
+    line-height: 1.4em !important;
+  }
+  p, .xs.p {
+    font-size: 1em !important;
+    line-height: 1.4em !important;
+  }
+}
+/* Large Mobile Phones */
+@media screen and (max-width: 767px) and (min-width: 321px) {
+/* Display */
+.mobreak{ display:block;}
+.tabbreak{ display:none;}
+.dtbreak{ display:none;}
+
+/* Alignment */
+.s-center{ text-align: center;}
+.s-left{text-align: left;}
+.s-right{text-align: right;}
+
+/* Flexbox */
+.s-flex {display: flex;}
+
+  /* Flex Direction */
+  .s-row {flex-direction: row;}
+  .s-rev-row{flex-direction: row-reverse;}
+  .s-column {flex-direction: column;}
+  .s-rev-column {flex-direction: column-reverse;}
+  /* Flex Justify Content - Horizontal Alignment */
+  .s-horizon-start{justify-content: flex-start;}
+  .s-horizon-end{justify-content: flex-end;}
+  .s-horizon-center{justify-content: center;}
+  .s-horizon-between{justify-content: space-between;}
+  .s-horizon-around{justify-content: space-around;}
+  /* Flex Align Items - Vertical Alignment */
+  .s-vert-start{align-items: flex-start;}
+  .s-vert-end{align-items: flex-end;}
+  .s-vert-center{align-items: center;}
+  .s-vert-base{align-items: baseline;}
+  .s-vert-stretch{align-items: stretch;}
+
+/* Font Sizes */
+  h1, .s.h1 {
+    font-size: 2.75em !important;
+    line-height: 1.15em !important;
+  }
+  h2, .s.h2 {
+    font-size: 2.125em !important;
+    line-height: 1.20em !important;
+  }
+  h3, .s.h3 {
+    font-size: 1.75em !important;
+    line-height: 1.25em !important;
+  }
+  h4, .s.h4 {
+    font-size: 1.5em !important;
+    line-height: 1.3em !important;
+  }
+  h5, .s.h5 {
+    font-size: 1.25em !important;
+    line-height: 1.35em !important;
+  }
+  h6, .s.h6 {
+    font-size: 1em !important;
+    line-height: 1.4em !important;
+  }
+  p, .s.p {
+    font-size: 1em !important;
+    line-height: 1.4em !important;
+  }
+}
+/* Small Tablets */
+@media screen and (max-width: 980px) and (min-width: 768px) {
+/* Display */
+.mobreak{ display:none;}
+.tabbreak{ display:block;}
+.dtbreak{ display:none;}
+
+/* Alignment */
+.m-center{ text-align: center;}
+.m-left{text-align: left;}
+.m-right{text-align: right;}
+
+/* Flexbox */
+.m-flex {display: flex;}
+
+  /* Flex Direction */
+  .m-row {flex-direction: row;}
+  .m-rev-row{flex-direction: row-reverse;}
+  .m-column {flex-direction: column;}
+  .m-rev-column {flex-direction: column-reverse;}
+  /* Flex Justify Content - Horizontal Alignment */
+  .m-horizon-start{justify-content: flex-start;}
+  .m-horizon-end{justify-content: flex-end;}
+  .m-horizon-center{justify-content: center;}
+  .m-horizon-between{justify-content: space-between;}
+  .m-horizon-around{justify-content: space-around;}
+  /* Flex Align Items - Vertical Alignment */
+  .m-vert-start{align-items: flex-start;}
+  .m-vert-end{align-items: flex-end;}
+  .m-vert-center{align-items: center;}
+  .m-vert-base{align-items: baseline;}
+  .m-vert-stretch{align-items: stretch;}
+
+/* Font Sizes */
+  h1, .m.h1 {
+    font-size: 3.25em !important;
+    line-height: 1.15em !important;
+  }
+  h2, .m.h2 {
+    font-size: 2.75em !important;
+    line-height: 1.15em !important;
+  }
+  h3, .m.h3 {
+    font-size: 2.125em !important;
+    line-height: 1.2em !important;
+  }
+  h4, .m.h4 {
+    font-size: 1.75em !important;
+    line-height: 1.25em !important;
+  }
+  h5, .m.h5 {
+    font-size: 1.25em !important;
+    line-height: 1.3em !important;
+  }
+  h6, .m.h6 {
+    font-size: 1em !important;
+    line-height: 1.4em !important;
+  }
+  p, .m.p {
+    font-size: 1em !important;
+    line-height: 1.475em !important;
+  }
+}
+/* Larger Tablets - Some styles will be the same as desktop*/
+@media screen and (max-width: 1024px) and (min-width: 981px) {
+/* Display */
+.mobreak{ display:none;}
+.tabbreak{ display:block;}
+.dtbreak{ display:none;}
+
+/* Alignment */
+.l-center{ text-align: center;}
+.l-left{text-align: left;}
+.l-right{text-align: right;}
+
+/* Flexbox */
+.l-flex {display: flex;}
+
+  /* Flex Direction */
+  .l-row {flex-direction: row;}
+  .l-rev-row{flex-direction: row-reverse;}
+  .l-column {flex-direction: column;}
+  .l-rev-column {flex-direction: column-reverse;}
+  /* Flex Justify Content - Horizontal Alignment */
+  .l-horizon-start{justify-content: flex-start;}
+  .l-horizon-end{justify-content: flex-end;}
+  .l-horizon-center{justify-content: center;}
+  .l-horizon-between{justify-content: space-between;}
+  .l-horizon-around{justify-content: space-around;}
+  /* Flex Align Items - Vertical Alignment */
+  .l-vert-start{align-items: flex-start;}
+  .l-vert-end{align-items: flex-end;}
+  .l-vert-center{align-items: center;}
+  .l-vert-base{align-items: baseline;}
+  .l-vert-stretch{align-items: stretch;}
+
+/* Font Sizes */
+  h1, .l.h1 {
+    font-size: 3.25em !important;
+    line-height: 1.15em !important;
+  }
+  h2, .l.h2 {
+    font-size: 2.75em !important;
+    line-height: 1.15em !important;
+  }
+  h3, .l.h3 {
+    font-size: 2.125em !important;
+    line-height: 1.2em !important;
+  }
+  h4, .l.h4 {
+    font-size: 1.75em !important;
+    line-height: 1.25em !important;
+  }
+  h5, .l.h5 {
+    font-size: 1.25em !important;
+    line-height: 1.3em !important;
+  }
+  h6, .l.h6 {
+    font-size: 1em !important;
+    line-height: 1.4em !important;
+  }
+  p, .l.p {
+    font-size: 1em !important;
+    line-height: 1.475em !important;
+  }
+}
+/* Desktop */
+@media screen and (min-width: 1025px) {
+/* Display */
+.mobreak{ display:none;}
+.tabbreak{ display:none;}
+.dtbreak{ display:block;}
+
+/* Alignment */
+.xl-center{ text-align: center;}
+.xl-left{text-align: left;}
+.xl-right{text-align: right;}
+
+/* Flexbox */
+.xl-flex {display: flex;}
+
+  /* Flex Direction */
+  .xl-row {flex-direction: row;}
+  .xl-rev-row{flex-direction: row-reverse;}
+  .xl-column {flex-direction: column;}
+  .xl-rev-column {flex-direction: column-reverse;}
+  /* Flex Justify Content - Horizontal Alignment */
+  .xl-horizon-start{justify-content: flex-start;}
+  .xl-horizon-end{justify-content: flex-end;}
+  .xl-horizon-center{justify-content: center;}
+  .xl-horizon-between{justify-content: space-between;}
+  .xl-horizon-around{justify-content: space-around;}
+  /* Flex Align Items - Vertical Alignment */
+  .xl-vert-start{align-items: flex-start;}
+  .xl-vert-end{align-items: flex-end;}
+  .xl-vert-center{align-items: center;}
+  .xl-vert-base{align-items: baseline;}
+  .xl-vert-stretch{align-items: stretch;}
+
+/* Font Sizes */
+  h1, .xl.h1 {
+    font-size: 3.75em !important;
+    line-height: 1.15em !important;
+  }
+  h2, .xl.h2 {
+    font-size: 3.25em !important;
+    line-height: 1.25em !important;
+  }
+  h3, .xl.h3 {
+    font-size: 2.75em !important;
+    line-height: 1.25em !important;
+  }
+  h4, .xl.h4 {
+    font-size: 2.125em !important;
+    line-height: 1.22em !important;
+  }
+  h5, .xl.h5 {
+    font-size: 1.75em !important;
+    line-height: 1.3em !important;
+  }
+  h6, .xl.h6 {
+    font-size: 1.25em !important;
+    line-height: 1.4em !important;
+  }
+  p, .p {
+    font-size: 1em !important;
+    line-height: 1.575em !important;
+  }
+}
