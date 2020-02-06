@@ -28,12 +28,12 @@
 .primary-light {color: #b388ff;}
 
 /* Background Colors */
-.bg-white {color: #fff;}
-.bg-black {color: #000;}
-.bg-secondary {color: #64ffda;}
-.bg-primary {color: #651fff;}
-.bg-primary-dark {color: #410099;}
-.bg-primary-light {color: #b388ff;}
+.bg-white {background-color: #fff;}
+.bg-black {background-color: #000;}
+.bg-secondary {background-color: #64ffda;}
+.bg-primary {background-color: #651fff;}
+.bg-primary-dark {background-color: #410099;}
+.bg-primary-light {background-color: #b388ff;}
 
 /* Font */
 .sofia-pro {font-family: sofia-pro;}
