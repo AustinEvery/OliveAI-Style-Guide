@@ -1,356 +1,266 @@
-
-/* Oliveai Overall Styles */
-
-/* Sizing Chart */
-/* Small Phones Classes - Start with xs - extra small */
-/* Large Phones Classes - Start with s - small */
-/* Small Tablets Classes - Start with m - medium */
-/* Large Tablets Classes - Start with l - large */
-/* Desktop Classes - Start with xl - extra large */
-
-/* Display */
-.block {display: block;}
-.inline-block {display: inline-block;}
-.flex {display: flex;}
-.none {display:none;}
-
-/* Positioning */
-.absolute {position:absolute;}
-.relative {position:relative;}
-.fixed {position:fixed;}
-
-/* Colors */
-.white {color: #fff;}
-.black {color: #000;}
-.secondary {color: #64ffda;}
-.primary {color: #651fff;}
-.primary-dark {color: #410099;}
-.primary-light {color: #b388ff;}
-
-/* Background Colors */
-.bg-white {background-color: #fff;}
-.bg-black {background-color: #000;}
-.bg-secondary {background-color: #64ffda;}
-.bg-primary {background-color: #651fff;}
-.bg-primary-dark {background-color: #410099;}
-.bg-primary-light {background-color: #b388ff;}
-
-/* Font */
-.sofia-pro {font-family: sofia-pro;}
-
-/* Small Mobile Phones */
-@media screen and (max-width: 320px) {
-
-/* Display */
-.mobreak{ display:block;}
-.tabbreak{ display:none;}
-.dtbreak{ display:none;}
-
-/* Alignment */
-.xs-center{ text-align: center;}
-.xs-left{text-align: left;}
-.xs-right{text-align: right;}
-
-/* Flexbox */
-.xs-flex {display: flex;}
-
-  /* Flex Direction */
-  .xs-row {flex-direction: row;}
-  .xs-rev-row{flex-direction: row-reverse;}
-  .xs-column {flex-direction: column;}
-  .xs-rev-column {flex-direction: column-reverse;}
-  /* Flex Justify Content - Horizontal Alignment */
-  .xs-horizon-start{justify-content: flex-start;}
-  .xs-horizon-end{justify-content: flex-end;}
-  .xs-horizon-center{justify-content: center;}
-  .xs-horizon-between{justify-content: space-between;}
-  .xs-horizon-around{justify-content: space-around;}
-  /* Flex Align Items - Vertical Alignment */
-  .xs-vert-start{align-items: flex-start;}
-  .xs-vert-end{align-items: flex-end;}
-  .xs-vert-center{align-items: center;}
-  .xs-vert-base{align-items: baseline;}
-  .xs-vert-stretch{align-items: stretch;}
-
-/* Font Sizes */
-  h1, .xs.h1 {
-    font-size: 2.75em !important;
-    line-height: 1.15em !important;
-  }
-  h2, .xs.h2 {
-    font-size: 2.125em !important;
-    line-height: 1.20em !important;
-  }
-  h3, .xs.h3 {
-    font-size: 1.75em !important;
-    line-height: 1.25em !important;
-  }
-  h4, .xs.h4 {
-    font-size: 1.25em !important;
-    line-height: 1.3em !important;
-  }
-  h5, .xs.h5 {
-    font-size: 1.25em !important;
-    line-height: 1.35em !important;
-  }
-  h6, .xs.h6 {
-    font-size: 1em !important;
-    line-height: 1.4em !important;
-  }
-  p, .xs.p {
-    font-size: 1em !important;
-    line-height: 1.4em !important;
-  }
+#main-content .entry-content h1,
+#main-content .entry-content h2,
+#main-content .entry-content h3,
+#main-content .entry-content h4,
+#main-content .entry-content h5,
+#main-content .entry-content h6 {
+  font-weight: bold !important;
 }
-/* Large Mobile Phones */
-@media screen and (max-width: 767px) and (min-width: 321px) {
-/* Display */
-.mobreak{ display:block;}
-.tabbreak{ display:none;}
-.dtbreak{ display:none;}
 
-/* Alignment */
-.s-center{ text-align: center;}
-.s-left{text-align: left;}
-.s-right{text-align: right;}
+.entry-content {
+  overflow: hidden !important;
+}
 
-/* Flexbox */
-.s-flex {display: flex;}
+.entry-content p {
+  color: #6B6B6B !important;
+}
 
-  /* Flex Direction */
-  .s-row {flex-direction: row;}
-  .s-rev-row{flex-direction: row-reverse;}
-  .s-column {flex-direction: column;}
-  .s-rev-column {flex-direction: column-reverse;}
-  /* Flex Justify Content - Horizontal Alignment */
-  .s-horizon-start{justify-content: flex-start;}
-  .s-horizon-end{justify-content: flex-end;}
-  .s-horizon-center{justify-content: center;}
-  .s-horizon-between{justify-content: space-between;}
-  .s-horizon-around{justify-content: space-around;}
-  /* Flex Align Items - Vertical Alignment */
-  .s-vert-start{align-items: flex-start;}
-  .s-vert-end{align-items: flex-end;}
-  .s-vert-center{align-items: center;}
-  .s-vert-base{align-items: baseline;}
-  .s-vert-stretch{align-items: stretch;}
+/* Utility Classes */
 
-/* Font Sizes */
-  h1, .s.h1 {
-    font-size: 2.75em !important;
-    line-height: 1.15em !important;
+.text-purple {
+  color: #651FFF !important;
+}
+
+.text-aquamarine {
+  color: #64FFDA !important;
+}
+
+.text-white {
+  color: #FFF !important;
+}
+
+.text-light-gray {
+  color: #F8F8F8 !important;
+}
+
+.text-gray {
+  color: #7C7C7C !important;
+}
+
+.text-dark-gray {
+  color: #333 !important;
+}
+
+.text-black {
+  color: #000 !important;
+}
+
+.bg-purple {
+  background-color: #651FFF !important;
+}
+
+.bg-aquamarine {
+  background-color: #64FFDA !important;
+}
+
+.bg-white {
+  background-color: #FFF !important;
+}
+
+.bg-light-gray {
+  background-color: #F8F8F8 !important;
+}
+
+.bg-gray {
+  background-color: #7C7C7C !important;
+}
+
+.bg-dark-gray {
+  background-color: #333 !important;
+}
+
+.bg-black {
+  background-color: #000 !important;
+}
+
+.leading-none {
+  line-height: 1 !important;
+}
+
+.leading-tight {
+  line-height: 1.25 !important;
+}
+
+.leading-normal {
+  line-height: 1.5 !important;
+}
+
+.leading-loose {
+  line-height: 2 !important;
+}
+
+.text-3xs {
+  font-size: .7em !important;
+}
+
+.text-2xs {
+  font-size: .8em !important;
+}
+
+.text-xs {
+  font-size: .9em !important;
+}
+
+.text-base {
+  font-size: 1em !important;
+}
+
+.text-xl {
+  font-size: 1.25em !important;
+}
+
+.text-2xl {
+  font-size: 1.5em !important;
+}
+
+.text-3xl {
+  font-size: 2em !important;
+}
+
+.text-4xl {
+  font-size: 4.5em !important;
+}
+
+.font-normal {
+  font-weight: 400 !important;
+}
+
+.font-bold {
+  font-weight: 700 !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+@media only screen and (max-width: 980px) {
+
+  .t\:text-3xs {
+    font-size: .7em !important;
   }
-  h2, .s.h2 {
-    font-size: 2.125em !important;
-    line-height: 1.20em !important;
+
+  .t\:text-2xs {
+    font-size: .8em !important;
   }
-  h3, .s.h3 {
-    font-size: 1.75em !important;
-    line-height: 1.25em !important;
+
+  .t\:text-xs {
+    font-size: .9em !important;
   }
-  h4, .s.h4 {
+
+  .t\:text-base {
+    font-size: 1em !important;
+  }
+
+  .t\:text-xl {
+    font-size: 1.25em !important;
+  }
+
+  .t\:text-2xl {
     font-size: 1.5em !important;
-    line-height: 1.3em !important;
   }
-  h5, .s.h5 {
-    font-size: 1.25em !important;
-    line-height: 1.35em !important;
+
+  .t\:text-3xl {
+    font-size: 2em !important;
   }
-  h6, .s.h6 {
-    font-size: 1em !important;
-    line-height: 1.4em !important;
+
+  .t\:text-4xl {
+    font-size: 4.5em !important;
   }
-  p, .s.p {
-    font-size: 1em !important;
-    line-height: 1.4em !important;
+
+  .t\:font-normal {
+    font-weight: 400 !important;
   }
+
+  .t\:font-bold {
+    font-weight: 700 !important;
+  }
+
+  .t\:text-left {
+    text-align: left !important;
+  }
+
+  .t\:text-center {
+    text-align: center !important;
+  }
+
+  .t\:text-right {
+    text-align: right !important;
+  }
+
+  .t\:text-justify {
+    text-align: justify !important;
+  }
+
 }
-/* Small Tablets */
-@media screen and (max-width: 980px) and (min-width: 768px) {
-/* Display */
-.mobreak{ display:none;}
-.tabbreak{ display:block;}
-.dtbreak{ display:none;}
 
-/* Alignment */
-.m-center{ text-align: center;}
-.m-left{text-align: left;}
-.m-right{text-align: right;}
+@media only screen and (max-width: 767px) {
 
-/* Flexbox */
-.m-flex {display: flex;}
+  .p\:text-3xs {
+    font-size: .7em !important;
+  }
 
-  /* Flex Direction */
-  .m-row {flex-direction: row;}
-  .m-rev-row{flex-direction: row-reverse;}
-  .m-column {flex-direction: column;}
-  .m-rev-column {flex-direction: column-reverse;}
-  /* Flex Justify Content - Horizontal Alignment */
-  .m-horizon-start{justify-content: flex-start;}
-  .m-horizon-end{justify-content: flex-end;}
-  .m-horizon-center{justify-content: center;}
-  .m-horizon-between{justify-content: space-between;}
-  .m-horizon-around{justify-content: space-around;}
-  /* Flex Align Items - Vertical Alignment */
-  .m-vert-start{align-items: flex-start;}
-  .m-vert-end{align-items: flex-end;}
-  .m-vert-center{align-items: center;}
-  .m-vert-base{align-items: baseline;}
-  .m-vert-stretch{align-items: stretch;}
+  .p\:text-2xs {
+    font-size: .8em !important;
+  }
 
-/* Font Sizes */
-  h1, .m.h1 {
-    font-size: 3.25em !important;
-    line-height: 1.15em !important;
+  .p\:text-xs {
+    font-size: .9em !important;
   }
-  h2, .m.h2 {
-    font-size: 2.75em !important;
-    line-height: 1.15em !important;
+
+  .p\:text-base {
+    font-size: 1em !important;
   }
-  h3, .m.h3 {
-    font-size: 2.125em !important;
-    line-height: 1.2em !important;
-  }
-  h4, .m.h4 {
-    font-size: 1.75em !important;
-    line-height: 1.25em !important;
-  }
-  h5, .m.h5 {
+
+  .p\:text-xl {
     font-size: 1.25em !important;
-    line-height: 1.3em !important;
   }
-  h6, .m.h6 {
-    font-size: 1em !important;
-    line-height: 1.4em !important;
-  }
-  p, .m.p {
-    font-size: 1em !important;
-    line-height: 1.475em !important;
-  }
-}
-/* Larger Tablets - Some styles will be the same as desktop*/
-@media screen and (max-width: 1024px) and (min-width: 981px) {
-/* Display */
-.mobreak{ display:none;}
-.tabbreak{ display:block;}
-.dtbreak{ display:none;}
 
-/* Alignment */
-.l-center{ text-align: center;}
-.l-left{text-align: left;}
-.l-right{text-align: right;}
+  .p\:text-2xl {
+    font-size: 1.5em !important;
+  }
 
-/* Flexbox */
-.l-flex {display: flex;}
+  .p\:text-3xl {
+    font-size: 2em !important;
+  }
 
-  /* Flex Direction */
-  .l-row {flex-direction: row;}
-  .l-rev-row{flex-direction: row-reverse;}
-  .l-column {flex-direction: column;}
-  .l-rev-column {flex-direction: column-reverse;}
-  /* Flex Justify Content - Horizontal Alignment */
-  .l-horizon-start{justify-content: flex-start;}
-  .l-horizon-end{justify-content: flex-end;}
-  .l-horizon-center{justify-content: center;}
-  .l-horizon-between{justify-content: space-between;}
-  .l-horizon-around{justify-content: space-around;}
-  /* Flex Align Items - Vertical Alignment */
-  .l-vert-start{align-items: flex-start;}
-  .l-vert-end{align-items: flex-end;}
-  .l-vert-center{align-items: center;}
-  .l-vert-base{align-items: baseline;}
-  .l-vert-stretch{align-items: stretch;}
+  .p\:text-4xl {
+    font-size: 4.5em !important;
+  }
 
-/* Font Sizes */
-  h1, .l.h1 {
-    font-size: 3.25em !important;
-    line-height: 1.15em !important;
+  .p\:font-normal {
+    font-weight: 400 !important;
   }
-  h2, .l.h2 {
-    font-size: 2.75em !important;
-    line-height: 1.15em !important;
-  }
-  h3, .l.h3 {
-    font-size: 2.125em !important;
-    line-height: 1.2em !important;
-  }
-  h4, .l.h4 {
-    font-size: 1.75em !important;
-    line-height: 1.25em !important;
-  }
-  h5, .l.h5 {
-    font-size: 1.25em !important;
-    line-height: 1.3em !important;
-  }
-  h6, .l.h6 {
-    font-size: 1em !important;
-    line-height: 1.4em !important;
-  }
-  p, .l.p {
-    font-size: 1em !important;
-    line-height: 1.475em !important;
-  }
-}
-/* Desktop */
-@media screen and (min-width: 1025px) {
-/* Display */
-.mobreak{ display:none;}
-.tabbreak{ display:none;}
-.dtbreak{ display:block;}
 
-/* Alignment */
-.xl-center{ text-align: center;}
-.xl-left{text-align: left;}
-.xl-right{text-align: right;}
+  .p\:font-bold {
+    font-weight: 700 !important;
+  }
 
-/* Flexbox */
-.xl-flex {display: flex;}
+  .p\:text-left {
+    text-align: left !important;
+  }
 
-  /* Flex Direction */
-  .xl-row {flex-direction: row;}
-  .xl-rev-row{flex-direction: row-reverse;}
-  .xl-column {flex-direction: column;}
-  .xl-rev-column {flex-direction: column-reverse;}
-  /* Flex Justify Content - Horizontal Alignment */
-  .xl-horizon-start{justify-content: flex-start;}
-  .xl-horizon-end{justify-content: flex-end;}
-  .xl-horizon-center{justify-content: center;}
-  .xl-horizon-between{justify-content: space-between;}
-  .xl-horizon-around{justify-content: space-around;}
-  /* Flex Align Items - Vertical Alignment */
-  .xl-vert-start{align-items: flex-start;}
-  .xl-vert-end{align-items: flex-end;}
-  .xl-vert-center{align-items: center;}
-  .xl-vert-base{align-items: baseline;}
-  .xl-vert-stretch{align-items: stretch;}
+  .p\:text-center {
+    text-align: center !important;
+  }
 
-/* Font Sizes */
-  h1, .xl.h1 {
-    font-size: 3.75em !important;
-    line-height: 1.15em !important;
+  .p\:text-right {
+    text-align: right !important;
   }
-  h2, .xl.h2 {
-    font-size: 3.25em !important;
-    line-height: 1.25em !important;
+
+  .p\:text-justify {
+    text-align: justify !important;
   }
-  h3, .xl.h3 {
-    font-size: 2.75em !important;
-    line-height: 1.25em !important;
-  }
-  h4, .xl.h4 {
-    font-size: 2.125em !important;
-    line-height: 1.22em !important;
-  }
-  h5, .xl.h5 {
-    font-size: 1.75em !important;
-    line-height: 1.3em !important;
-  }
-  h6, .xl.h6 {
-    font-size: 1.25em !important;
-    line-height: 1.4em !important;
-  }
-  p, .p {
-    font-size: 1em !important;
-    line-height: 1.575em !important;
-  }
+
 }
